@@ -1,0 +1,48 @@
+.p1bottom{
+    height: 40vh;
+    background-color: #222;
+    width: 88vw;
+    display: flex;
+    font-family: gilroy;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 4vh;
+    transform: translateY(-50%);
+}
+.p1bottom .bottombox{
+    gap: 4vh;
+    display: flex;
+}
+.p1bottom .bottombox .img{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+}
+.p1bottom .bottombox .one{
+    font-family: gilroy;
+    grid-row: 900;
+
+}
+
+.p1bottom .bottombox .two{
+    margin-top: 1vh;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    gap: 1vh;
+}
+.p1bottom .bottombox:nth-child(2) .two{
+    margin-top: 1vh;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vh;
+}
+.p1bottom .bottombox:nth-child(3) .two h3{
+    width: 12vw;
+}

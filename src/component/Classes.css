@@ -1,0 +1,10 @@
+.classes{
+    width: 100vw;
+    min-height: 150vh;
+    background-color: #111;
+    font-family: gilroy;
+    font-size: 2.5rem;
+    padding-top: 70vh;
+    padding-left: 3rem;
+    color: #fff;
+}
